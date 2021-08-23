@@ -1,0 +1,14 @@
+ALGORITHM algorithm_count
+VAR
+    l, nb_mot, nb_voy : INTEGER;
+    sent: STRING
+BEGIN
+l:=length(sent)
+     FOR i FROM 1 TO 100 STEP step  DO
+          if(sent[i]==" ")
+        nb_mot:=nb_mot+1;
+        if(sent[i]="a" or sent[i] ="e" or sent[i]="i" or sent[i]="o" or sent[i]="u" or sent[i]="y")
+        nb_voy:=nb_voy+1;
+     END_FOR
+   
+END
